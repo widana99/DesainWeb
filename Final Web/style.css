@@ -1,0 +1,58 @@
+:root{
+    --bg :#000;
+    --primary: #a52a2a;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+
+/*NAVBAR*/
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 7%;
+    background-color: #252525;
+    border-bottom: 1px solid #a52a2a;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.navbar .navbar-nav a{
+    list-style: none;
+    color: white;
+    display: inline-block;
+    margin: 0 1rem;
+}
+
+.navbar .navbar-logo{
+    font-size: 2rem;
+    color: white;
+}
+
+.hero{
+    margin-top: 3rem;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-color: #a52a2a;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.hero ul li{
+    box-sizing: border-box;
+    position: relative;
+    color: #a52a2a;
+    background-color: #252525;
+}
