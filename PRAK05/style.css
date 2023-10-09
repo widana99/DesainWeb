@@ -1,0 +1,109 @@
+:root {
+    --bg: #000;
+    --primary: #a52a2a;
+    --accent: #fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--bg);
+    color: var(--accent);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 7%;
+    background-color: #252525;
+    border-bottom: 1px solid var(--primary);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.navbar-logo {
+    font-size: 2rem;
+    color: var(--accent);
+}
+
+.navbar-nav a {
+    color: var(--accent);
+    margin: 0 1rem;
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar-nav a:hover {
+    color: var(--primary);
+}
+
+.hero {
+    margin-top: 5rem;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-color: var(--primary);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    text-align: center;
+}
+
+.content {
+    max-width: 800px;
+    margin: auto;
+    padding: 2rem;
+}
+
+.feature-link {
+    color: var(--accent);
+    text-decoration: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0.5rem 0;
+    transition: color 0.3s ease-in-out;
+}
+
+.feature-link:hover {
+    color: var(--primary);
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.pict {
+    max-width: 45%;
+}
+
+.news-image {
+    max-width: 100%;
+    margin-top: 2rem;
+}
+
+.store-buttons {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.appstore-icon, .playstore-icon {
+    max-width: 100px;
+    margin: 0 1rem;
+}
