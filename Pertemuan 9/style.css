@@ -1,0 +1,127 @@
+    body{
+        display: flex;
+        justify-content: center;
+    }
+
+    .wrap{
+        position: relative;
+        width: 460px;
+        height: 400px;
+        padding: 10px;
+        z-index: 1;
+        margin-top: 148px;
+        background-color: #aaaaaa;
+        border-radius: 20px;
+    }
+
+    #slider {
+        margin: 20px auto ;
+        position: relative;
+        width: 400px;
+        height: 300px;
+        overflow: hidden;
+    }
+
+    #slider img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        display: none;
+        border-radius: 10px;
+        transition: opacity 0.5s;
+    } 
+
+    #slider img.active {
+        display: block;
+        opacity: 1;
+    }
+
+    #slider-controls {
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .slider-control{
+        background-color: #e6e6e6;
+        border-radius: 4px;
+        padding: 5px;
+    }
+        
+    #slider-controls .slider-control {
+        cursor: pointer;
+        padding: 5px;
+        margin-right: 5px;
+        user-select: none;
+    }
+
+    #slider-controls .slider-control:hover {
+        color: #333;
+        text-decoration: underline;
+    }
+
+    #slider-controls .slider-control.active {
+        color: white;
+        background-color: 	#2f5288;
+        font-weight: bold;
+    }
+
+    #power{
+        display: flex;
+        margin: 10px ;
+        justify-content: end;
+        gap: 5px;
+    }
+
+    #power #power-on{
+        position: relative;
+        width: 20px;
+        height: 20px;
+        border-radius: 20px;
+        border: none;
+        background-color: red;
+    }
+
+    #power #power-off{
+        position: relative;
+        width: 20px;
+        height: 20px;
+        border-radius: 20px;
+        border: none;
+        background-color:rgb(80, 235, 80);
+    }
+
+    .antena{
+        display: flex;
+        justify-content: center;
+        gap: 340px;
+    }
+
+    .antena .antena2{
+        width: 20px;
+        height: 160px;
+        margin-top: -156px;
+        transform: rotate(30deg);
+        background-color: #3e3e42;
+        border-radius: 50px 50px 80px 0px;
+    }
+
+    .antena .antena1{
+        width: 20px;
+        height: 160px;
+        margin-top: -156px;
+        transform: rotate(330deg);
+        background-color: #3e3e42;
+        border-radius: 50px 50px 0px 80px;
+    }
+
+    .antena1 .pentil,.penti2{
+        background-color: red;
+        width: 20px;
+        height: 15px;
+        border-radius: 50px 50px 0px 0px;
+    }
+
+    body .meja{
+        position: fixed;
+        margin-top: 454px;
+    }
