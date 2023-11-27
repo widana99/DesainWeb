@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Barlow:wght@400;700&family=Poppins:ital,wght@0,300;0,400;1,200;1,300&display=swap');
+*{
+  font-family: 'Poppins';
+}
+
+.hero {
+    height: 100vh;
+    background-image: url("akhmad.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    background-attachment: fixed;
+  }
+  
+
+#Project {
+  background-color: #A9A9A9;
+  height: 100vh; 
+  padding: 50px 0;
+}
+
+#Project h2 {
+  text-align: center;
+  font-size: 2em; 
+  margin-bottom: 20px; 
+}
+
+.card-wrapper {
+  margin-bottom: 20px;
+}
+
+.card {
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px); 
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-title {
+  font-size: 1.5em;
+  margin-bottom: 10px; 
+}
+
+.card-text {
+  font-size: 1.2em; 
+  color: #555;
+}
+
+#Contact {
+  background-color: #696969;
+  padding: 50px 0; 
+  color: white;
+}
+
+#Contact h2 {
+  font-size: 2em; 
+  margin-bottom: 20px; 
+}
+
+#Contact form {
+  max-width: 500px; 
+  margin: auto;
+}
+
+#Contact form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#Contact form input[type="text"],
+#Contact form input[type="email"],
+#Contact form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+#Contact form button {
+  padding: 10px 20px;
+  border: none;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#Contact form button:hover {
+  background-color: #000; 
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
