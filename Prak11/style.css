@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Barlow+Condensed:ital,wght@1,300&family=Barlow:wght@400;700&family=Poppins:ital,wght@0,300;0,400;1,200;1,300&display=swap');
+.txt{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    font-family: 'Barlow Condensed';
+    font-weight: 700;
+    color: #007acc;
+}
+
+.gallery-img {
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.gallery-img:hover {
+    transform: scale(1.10);
+    border: 5px solid #007acc;
+}
+
+.material-symbols-outlined{
+    color: white;
+}
